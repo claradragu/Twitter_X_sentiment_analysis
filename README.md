@@ -4,6 +4,11 @@
 
 This Git project is a Python-based sentiment analysis application that analyzes sentiments in Twitter data. Sentiment analysis, also known as opinion mining, is a natural language processing (NLP) technique used to determine the sentiment or emotional tone expressed in textual data, in this case, Twitter tweets. The project involves preprocessing the data, training various machine learning models, and visualizing the results.
 
+## Data Collection
+
+Initial Scraper Attempt: The project initially attempted to scrape Twitter data directly from the Twitter API. However, due to limitations in the Twitter API, this approach was not successful.
+Kaggle Dataset: To overcome the data collection challenges, the project used a Kaggle dataset containing 1.6 million tweets. This dataset served as the primary data source for the sentiment analysis.
+
 ## Key Features
 
 Data Preprocessing: The project includes data preprocessing steps to clean and prepare the Twitter data for analysis. It involves tasks such as lowercasing, tokenization, stop word removal, punctuation removal, and stemming.
