@@ -6,15 +6,19 @@ This Git project is a Python-based sentiment analysis application that analyzes 
 
 ## Data Collection
 
-Initial Scraper Attempt: The project initially attempted to scrape Twitter data directly from the Twitter API. However, due to limitations in the Twitter API, this approach was not successful.
-Kaggle Dataset: To overcome the data collection challenges, the project used a Kaggle dataset containing 1.6 million tweets. This dataset served as the primary data source for the sentiment analysis.
+**Initial Scraper Attempt**: The project initially attempted to scrape Twitter data directly from the Twitter API. However, due to limitations in the Twitter API, this approach was not successful.
+
+**Kaggle Dataset**: To overcome the data collection challenges, the project used a Kaggle dataset containing 1.6 million tweets. This dataset served as the primary data source for the sentiment analysis.
 
 ## Key Features
 
-Data Preprocessing: The project includes data preprocessing steps to clean and prepare the Twitter data for analysis. It involves tasks such as lowercasing, tokenization, stop word removal, punctuation removal, and stemming.
-Machine Learning Models: The sentiment analysis employs machine learning models, including Logistic Regression, Naive Bayes, K-Nearest Neighbors (KNN), and Support Vector Classification (SVC) to predict sentiment labels (positive or negative) based on the processed text.
-Visualization: The project uses Matplotlib and Seaborn for data visualization. It includes visualizations for confusion matrices and model accuracies.
-Dataset: The project uses a Twitter dataset with sentiment labels (0 for negative and 4 for positive) and tweet text.
+**Data Preprocessing**: The project includes data preprocessing steps to clean and prepare the Twitter data for analysis. It involves tasks such as lowercasing, tokenization, stop word removal, punctuation removal, and stemming.
+
+**Machine Learning Models**: The sentiment analysis employs machine learning models, including Logistic Regression, Naive Bayes, K-Nearest Neighbors (KNN), and Support Vector Classification (SVC) to predict sentiment labels (positive or negative) based on the processed text.
+
+**Visualization**: The project uses Matplotlib and Seaborn for data visualization. It includes visualizations for confusion matrices and model accuracies.
+
+**Dataset**: The project uses a Twitter dataset with sentiment labels (0 for negative and 4 for positive) and tweet text.
 Getting Started
 
 ## To get started with this project, follow these steps:
